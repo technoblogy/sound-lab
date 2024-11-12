@@ -5905,7 +5905,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R18" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="100k"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="IC3" library="linear" deviceset="LM3900" device="D"/>
-<part name="R100" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="100k"/>
+<part name="R55" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="100k"/>
 <part name="R10" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="10k"/>
 <part name="R16" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="100k"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
@@ -6175,7 +6175,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="IC3" gate="C" x="40.64" y="132.08" rot="MR180"/>
 <instance part="IC3" gate="D" x="58.42" y="101.6" rot="MR0"/>
 <instance part="IC3" gate="P" x="-2.54" y="132.08"/>
-<instance part="R100" gate="G$1" x="-27.94" y="93.98"/>
+<instance part="R55" gate="G$1" x="-27.94" y="93.98"/>
 <instance part="R10" gate="G$1" x="38.1" y="101.6"/>
 <instance part="R16" gate="G$1" x="-2.54" y="111.76"/>
 <instance part="GND4" gate="1" x="-2.54" y="119.38"/>
@@ -6714,7 +6714,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R100" gate="G$1" pin="2"/>
+<pinref part="R55" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="134.62" x2="-17.78" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="-22.86" y1="134.62" x2="-17.78" y2="134.62" width="0.1524" layer="91"/>
@@ -7533,7 +7533,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$14" class="0">
 <segment>
 <pinref part="P2" gate="G$1" pin="S"/>
-<pinref part="R100" gate="G$1" pin="1"/>
+<pinref part="R55" gate="G$1" pin="1"/>
 <wire x1="-35.56" y1="93.98" x2="-33.02" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
